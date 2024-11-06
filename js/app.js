@@ -1,5 +1,4 @@
 const form = document.querySelector("form");
-const btnSubmit = document.querySelector("button[type='submit'");
 const employeesTable = document.querySelector("#employeeList");
 
 function deleteRow(e) {
@@ -13,7 +12,7 @@ function deleteRow(e) {
     }
 }
 
-btnSubmit.addEventListener("click", (e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
 
     const formData = new FormData(form);
