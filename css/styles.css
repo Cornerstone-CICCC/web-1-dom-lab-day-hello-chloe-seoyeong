@@ -51,5 +51,26 @@ body {
   flex: 1;
   padding: 0.25rem;
 }
+.container table {
+  width: 100%;
+}
+.container table th,
+.container table td {
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+.container table th {
+  background-color: #bfbfbf;
+}
+.container table tr {
+  background-color: #e6e6e6;
+}
+.container table img {
+  max-width: 100px;
+  vertical-align: middle;
+}
+.container table button {
+  vertical-align: middle;
+}
 
 /*# sourceMappingURL=styles.css.map */

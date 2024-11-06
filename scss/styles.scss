@@ -56,4 +56,26 @@ body {
       }
     }
   }
+  table {
+    width: 100%;
+    th,
+    td {
+      padding: 1rem .5rem;
+      text-align: center;
+    }
+    th {
+      background-color: #bfbfbf;;
+    }
+    tr {
+      background-color: #e6e6e6;
+    }
+
+    img {
+      max-width: 100px;
+      vertical-align: middle;
+    }
+    button {
+      vertical-align: middle;
+    }
+  }
 }
